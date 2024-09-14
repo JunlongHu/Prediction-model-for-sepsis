@@ -21,7 +21,7 @@ def set_background():
 
 
 set_background()
-st.markdown("<h3 style='text-align: center'>Prediction model of sepsis</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center'>Prediction model of pediatric sepsis</h3>", unsafe_allow_html=True)
 st.write("")
 with st.form("my_form"):
     map_dic = {"Yes": 1, "No": 0}
