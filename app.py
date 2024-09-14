@@ -10,7 +10,7 @@ if "Model" not in st.session_state:
 def set_background():
     page_bg_img = '''
     <style>
-    h1 {padding: 0.75rem 0px 0.75rem;margin-top: 2rem;box-shadow: 0px 3px 5px gray;}
+    h3 {padding: 0.75rem 0px 0.75rem;margin-top: 2rem;box-shadow: 0px 3px 5px gray;}
     MainMenu {visibility:hidden;}
     footer {visibility:hidden;}
     .st-emotion-cache-13ln4jf {padding: 1rem 1rem 4rem}
@@ -21,7 +21,7 @@ def set_background():
 
 
 set_background()
-st.markdown("<h1 style='text-align: center'>Prediction model of sepsis</h1>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center'>Prediction model of sepsis</h3>", unsafe_allow_html=True)
 st.write("")
 with st.form("my_form"):
     map_dic = {"Yes": 1, "No": 0}
